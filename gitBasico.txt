@@ -1,0 +1,22 @@
+
+Configurando la cuenta de GitHub...
+git config --global user.name "Name"
+git config --global user.mail "eMail"
+
+Clonando un repositorio...
+git clone https://urlRepo.git
+
+Haciendo Push de los cambios del Repo clonado...
+git add -> "Empaquetando los cambios"
+git add carpeta/
+git archivo.txt
+git add . -> Agrega todo
+
+Colocando comentarios...
+git commit -m "Comentario"
+
+Haciendo Push o Enviando los cambios...
+git push origin main (Colocando el Token vigente)
+
+Solicitando el status...
+git status
