@@ -1,0 +1,43 @@
+
+INICIO
+
+DECLARAR VARIABLES A y B
+IMPRIMIR "HOLA, VAMOS A COMPARAR 2 NUMEROS"
+IMPRIMIR "INTRODUCE EL PRIMER NUMERO A COMPARAR"
+    LEER DATO Y GUARDARLO EN "A"
+IMPRIMIR "INTRODUCE EL SEGUNDO NUMERO A COMPARAR"
+    LEER DATO Y GUARDARLO EN "B"
+
+FUNCION COMPARAR_NUMEROS
+    SI A > B ENTONCES,
+        IMPRIMIR "A ES MAYOR QUE B"
+    SI NO, 
+        IMPRIMIR "B ES MAYOR QUE A"
+    FIN DE COMPARACION
+FIN DE FUNCION
+
+EJECUTAR FUNCION COMPARAR_NUMEROS (ENVIAR A y B PARA PROCESAR)
+
+FIN
+
+---------------------------
+
+INICIO
+    DECLARAR A,B
+    IMPRIMIR "Hola, este programa multiplica 2 números"
+    IMPRIMIR "Captura el primer número"
+        LEER A
+    IMPRIMIR "Captura el segundo número"
+        LEER B
+ 
+    PROCESO multiplicar(A,B)
+        DEFINIR resultado = 0 
+        REPETIR CICLO (DESDE 1 HASTA B, INCREMENTAR 1 por ciclo)
+            CALCULAR resultado = resultado + A 
+        FIN-CICLO    
+        RETORNAR resultado
+    FIN-PROCESO
+
+    EJECUTAR-PROCESO multiplicar(A,B)
+    IMPRIMIR RETORNO-PROCESO multiplicar
+FIN
